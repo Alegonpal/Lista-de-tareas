@@ -1,0 +1,100 @@
+body {
+    font-family: courier, arial, helvetica;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la lista de tareas */
+#tareas-lista {
+    list-style-type: none;
+    padding: 0;
+    width: 50%;
+}
+
+#tareas-lista li {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tareas-lista li:hover {
+    background-color: #f0f0f0;
+}
+
+/* Input de descripción de tarea */
+#descripcion-tarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: courier, arial, helvetica;
+}
+
+/* Botón de agregar tarea */
+button {
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: courier, arial, helvetica;
+}
+
+button:hover {
+    background-color: #cfb001;
+}
+
+/* Icono papelera */
+img {
+    width: 15px;
+    height: 15px;
+}
+
+select {
+    font-family: courier, arial, helvetica;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    width: 244px;
+}
+
+/* Texto de la tarea */
+#tareas-lista li label {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Botón eliminar */
+#tareas-lista li button {
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+  
+
+
+
+
+

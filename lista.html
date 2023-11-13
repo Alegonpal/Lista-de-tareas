@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+
+</head>
+<body>
+    <h1>Lista de Tareas</h1> 
+    <p><input type="text" id="descripcion-tarea" placeholder="Nueva tarea" onkeydown="agregarTareaConEnter(event)">
+    <button onclick="agregarTarea()">+</button><br>
+    
+    <div style="text-align: center;">
+    <select id="filtro" onchange="filtrarTareas()">
+        <option value="todas" selected>Todas</option>
+        <option value="completas">Completas</option>
+        <option value="incompletas">Incompletas</option>
+      </select>
+    </div>
+    <ul id="tareas-lista"></ul>
+   
+    
+
+    <script src="lista.js"></script>
+</body>
+</html>
+
+
+
+
